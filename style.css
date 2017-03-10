@@ -1,0 +1,113 @@
+p {
+ font-family: "Verdana", serif;
+}
+
+h1 {
+ font-family: "Verdana", serif;
+}
+
+h2 {
+ font-family: "Verdana", serif;
+}
+
+li {
+ font-family: "Verdana", serif;   
+}
+
+.lefty{
+    font-size:1.4em;
+    margin-top:2em;
+    margin-bottom:2em;
+}
+
+body {
+    background-color:#F5DFB5;
+}
+
+.bar {
+    background-color:#272E2D;
+    padding-bottom:25em;
+    margin-top:-1.45em;
+    float:left;
+}
+
+#leftbarspecial {
+    padding-bottom:45em;  
+}
+
+a {
+    color:#949494;   
+}
+
+.bar ul li a:hover {
+    color:#CDCDCD;
+    background-color:#06090C;
+}
+
+.bar ul li.active {
+    color:#CDCDCD;
+    background-color:#06090C;
+}
+
+.left-formu{
+    float:left;
+    margin-left:6em;
+}
+
+.right-formu{
+    float:right;
+    margin-right:6em;
+}
+
+.rubrik{
+    clear:both;   
+}
+
+.rooms {
+  font-size:1.4em;
+}
+
+.fooms {
+  font-size:1.2em;
+}
+
+#contact{
+    color:black;   
+}
+
+#foodpictures{
+    display:inline;
+    float:right;
+}
+
+#footer {
+    text-align: center;
+    bottom:0;
+    margin-bottom:0em;
+    clear:both;
+}
+
+
+
+@media only screen and (min-width : 150px) and (max-width : 770px)
+{
+    .bar{
+        background-color:#272E2D;
+        padding-bottom:0em;
+        margin-top:-1.45em;
+    }
+
+    .lefty{
+        font-size:1.2em;
+        margin-top:0em;
+        margin-bottom:0em;
+    }
+
+    #leftbarspecial{
+        padding-bottom:0em;   
+    }
+    
+    #footer {
+     margin-top:1em;   
+    }
+}
